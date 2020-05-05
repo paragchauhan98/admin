@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>courses</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <!-- CSS styling starts-->
+  <style>
+    button{
+      width: 200px;
+      
+    }
+ 
+       
+    
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+      overflow: hidden;
+    }
+    
+
+    .row.content {height: 450px}
+    
+
+    .sidenav {
+      padding-top: 60px;
+      background-color:white;
+      height: auto;
+    }
+    #btn1{
+      width:100px;
+    }
+    #btn2{
+      width:100px;
+    }
+    
+    
+
+    
+
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 80px;
+      }
+      .row.content {height:auto;} 
+      
+    }
+    
+  </style>
+  <!-- CSS styling ends-->
+</head>
+<body>
+<!--top navigation bar starts-->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="#">Hello Admin</a></li>
+      
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  <!--top navigation bar ends-->
+
+  <!--side navigation bar starts-->
+<div class="container-fluid text-center">    
+  <div class="row content">
+    <div class="col-sm-2 sidenav">
+        
+      <button id="btn1" class="btn btn-info"><a href="#" style="color:black; text-decoration:none" ><b>Home</b></a></button><br><br>
+      <button class="btn btn-info" ><a href="#" style="color:black; text-decoration:none" ><b>Show Registered User</b></a></button><br><br>
+      <button class="active" class="btn btn-info btn-block" ><a href="#" style="color:black; text-decoration:none" ><b>Show Message</b></a></button><br><br>
+      <button class="btn btn-info"  ><a href="#" style="color:black; text-decoration:none" ><b>Add New Course</b></a></button><br><br>
+      <button class="btn btn-info"><a href="#" style="color:black; text-decoration:none" ><b>Add New Subject</b></a></button><br><br>
+      <button class="btn btn-info"><a href="#" style="color:black; text-decoration:none" ><b>Add New Chapter</b></a></button><br><br>
+      <button class="btn btn-info"><a href="#" style="color:black; text-decoration:none" ><b>Add New Video</b></a></button><br><br>
+      <button class="btn btn-info"><a href="#" style="color:black; text-decoration:none" ><b>Generate Test</b></a></button><br><br>
+      <button class="btn btn-info"><a href="#" style="color:black; text-decoration:none" ><b>Courses By You</b></a></button><br><br>
+      
+      <button id="btn2" class="btn btn-warning"><a href="#" style="color:black; text-decoration:none" ><b>Go back</b></a></button>
+ 
+    </div>
+    <!--side navigation bar ends-->
+    <!--middle box starts-->
+    
+    <div class="col-sm-8 text-left"> 
+        <br>
+        <br>
+      <h1>User Message Details</h1>
+      <br>
+      <br>
+    <!--table starts-->
+      <table class="table table-dark">
+        <thead>
+          <tr>
+            <th scope="col">Seq.No</th>
+            <th scope="col">Name</th>
+            <th scope="col">Email</th>
+            <th scope="col">Subject Message</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Parag</td>
+            <td>parag@gmail.com</td>
+            <td>offer accepted</td>
+          </tr>
+          <tr>
+            <th scope="row">1</th>
+            <td>Parag</td>
+            <td>parag@gmail.com</td>
+            <td>offer accepted</td>
+          </tr>
+          <tr>
+            <th scope="row">1</th>
+            <td>Parag</td>
+            <td>parag@gmail.com</td>
+            <td>offer accepted</td>
+          </tr>
+          <tr>
+            <th scope="row">1</th>
+            <td>Parag</td>
+            <td>parag@gmail.com</td>
+            <td>offer accepted</td>
+          </tr>
+          <tr>
+            <th scope="row">1</th>
+            <td>Parag</td>
+            <td>parag@gmail.com</td>
+            <td>offer accepted</td>
+          </tr>
+          <tr>
+            <th scope="row">1</th>
+            <td>Parag</td>
+            <td>parag@gmail.com</td>
+            <td>offer accepted</td>
+          </tr>
+          <tr>
+            <th scope="row">1</th>
+            <td>Parag</td>
+            <td>parag@gmail.com</td>
+            <td>offer accepted</td>
+          </tr>
+          <tr>
+            <th scope="row">1</th>
+            <td>Parag</td>
+            <td>parag@gmail.com</td>
+            <td>offer accepted</td>
+          </tr>
+          <tr>
+            <th scope="row">1</th>
+            <td>Parag</td>
+            <td>parag@gmail.com</td>
+            <td>offer accepted</td>
+          </tr>
+          <tr>
+            <th scope="row">1</th>
+            <td>Parag</td>
+            <td>parag@gmail.com</td>
+            <td>offer accepted</td>
+          </tr>
+          <tr>
+            <th scope="row">1</th>
+            <td>Parag</td>
+            <td>parag@gmail.com</td>
+            <td>offer accepted</td>
+          </tr>
+          <tr>
+            <th scope="row">1</th>
+            <td>Parag</td>
+            <td>parag@gmail.com</td>
+            <td>offer accepted</td>
+          </tr>
+          <tr>
+            <th scope="row">1</th>
+            <td>Parag</td>
+            <td>parag@gmail.com</td>
+            <td>offer accepted</td>
+          </tr>
+          <tr>
+            <th scope="row">1</th>
+            <td>Parag</td>
+            <td>parag@gmail.com</td>
+            <td>offer accepted</td>
+          </tr>
+          <tr>
+            <th scope="row">1</th>
+            <td>Parag</td>
+            <td>parag@gmail.com</td>
+            <td>offer accepted</td>
+          </tr>
+          <tr>
+            <th scope="row">1</th>
+            <td>Parag</td>
+            <td>parag@gmail.com</td>
+            <td>offer accepted</td>
+          </tr>
+          <tr>
+            <th scope="row">1</th>
+            <td>Parag</td>
+            <td>parag@gmail.com</td>
+            <td>offer accepted</td>
+          </tr>
+          <tr>
+            <th scope="row">1</th>
+            <td>Parag</td>
+            <td>parag@gmail.com</td>
+            <td>offer accepted</td>
+          </tr>
+          <tr>
+            <th scope="row">1</th>
+            <td>Parag</td>
+            <td>parag@gmail.com</td>
+            <td>offer accepted</td>
+          </tr>
+          <tr>
+            <th scope="row">1</th>
+            <td>Parag</td>
+            <td>parag@gmail.com</td>
+            <td>offer accepted</td>
+          </tr>
+          <tr>
+            <th scope="row">1</th>
+            <td>Parag</td>
+            <td>parag@gmail.com</td>
+            <td>offer accepted</td>
+          </tr>
+          <tr>
+            <th scope="row">1</th>
+            <td>Parag</td>
+            <td>parag@gmail.com</td>
+            <td>offer accepted</td>
+          </tr>
+          <tr>
+            <th scope="row">1</th>
+            <td>Parag</td>
+            <td>parag@gmail.com</td>
+            <td>offer accepted</td>
+          </tr>
+          <tr>
+            <th scope="row">1</th>
+            <td>Parag</td>
+            <td>parag@gmail.com</td>
+            <td>offer accepted</td>
+          </tr>
+          <tr>
+            <th scope="row">1</th>
+            <td>Parag</td>
+            <td>parag@gmail.com</td>
+            <td>offer accepted</td>
+          </tr>
+          <tr>
+            <th scope="row">1</th>
+            <td>Parag</td>
+            <td>parag@gmail.com</td>
+            <td>offer accepted</td>
+          </tr>
+          <tr>
+            <th scope="row">1</th>
+            <td>Parag</td>
+            <td>parag@gmail.com</td>
+            <td>offer accepted</td>
+          </tr>
+          <tr>
+            <th scope="row">1</th>
+            <td>Parag</td>
+            <td>parag@gmail.com</td>
+            <td>offer accepted</td>
+          </tr>
+          <tr>
+            <th scope="row">1</th>
+            <td>Parag</td>
+            <td>parag@gmail.com</td>
+            <td>offer accepted</td>
+          </tr>
+          <tr>
+            <th scope="row">1</th>
+            <td>Parag</td>
+            <td>parag@gmail.com</td>
+            <td>offer accepted</td>
+          </tr>
+          <tr>
+            <th scope="row">1</th>
+            <td>Parag</td>
+            <td>parag@gmail.com</td>
+            <td>offer accepted</td>
+          </tr>
+          <tr>
+            <th scope="row">1</th>
+            <td>Parag</td>
+            <td>parag@gmail.com</td>
+            <td>offer accepted</td>
+          </tr>
+          <tr>
+            <th scope="row">1</th>
+            <td>Parag</td>
+            <td>parag@gmail.com</td>
+            <td>offer accepted</td>
+          </tr>
+          <tr>
+            <th scope="row">1</th>
+            <td>Parag</td>
+            <td>parag@gmail.com</td>
+            <td>offer accepted</td>
+          </tr>
+          <tr>
+            <th scope="row">1</th>
+            <td>Parag</td>
+            <td>parag@gmail.com</td>
+            <td>offer accepted</td>
+          </tr>
+          <tr>
+            <th scope="row">1</th>
+            <td>Parag</td>
+            <td>parag@gmail.com</td>
+            <td>offer accepted</td>
+          </tr>
+
+          <tr>
+            <th scope="row">2</th>
+            <td>nikhil</td>
+            <td>nikhil@gmail.com</td>
+            <td>about work</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>parth</td>
+            <td>parth@gmail.com</td>
+            <td>work completed</td>
+          </tr>
+        </tbody>
+      </table>
+      <!--table ends-->
+      
+    </div>
+  <!--middle section ends-->
+  </div>
+  
+</div>
+
+
+
+</body>
+</html>
